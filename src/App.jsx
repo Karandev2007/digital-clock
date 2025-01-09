@@ -3,11 +3,11 @@ import './styles/globals.css';
 
 const App = () => {
   const [time, setTime] = useState(new Date()); // for storing current time
-  const [selectedZone, setSelectedZone] = useState('IST'); // default is ist
+  const [selectedZone, setSelectedZone] = useState('India'); // default is ist
   const [timeString, setTimeString] = useState('');
 
   const timeZones = {
-    IST: 'Asia/Kolkata',
+    India: 'Asia/Kolkata',
     'New York': 'America/New_York',
     London: 'Europe/London',
   };
