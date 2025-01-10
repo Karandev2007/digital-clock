@@ -39,7 +39,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#080404] text-white">
 
       <div className="mb-6">
         <img src="https://cdn-icons-png.flaticon.com/512/4305/4305432.png" alt="Clock GIF" className="w-64 h-64" />
